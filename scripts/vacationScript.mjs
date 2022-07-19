@@ -6,7 +6,7 @@ import LoadCards from "./modules/LoadCards.mjs";
 document.getElementById("submitButton").onclick = function (event) {
   event.preventDefault()
   postUserInput()
-  setTimeout(() => { LoadCards(); }, 100);
+  setTimeout(() => { LoadCards(); }, 150);
 }
 
 getWeatherFromLatLong();
